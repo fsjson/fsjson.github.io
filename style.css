@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* STYLE */
+
+.body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: violet;
+  padding: 2px;
+}
+
+.header a:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.hero {
+  height: 320px;
+  background-image: url(img/ubuntu.jpg);
+  background-size: cover;
+  background-position: 0 -85px;
+  border-top: 5px solid violet;
+  border-bottom: 5px solid violet;
+}
+
+.main {
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.main h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main .penulisArtikel {
+  font-family: Verdana, arial, Tahoma, sans-serif;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.main .penulisArtikel a {
+  color: violet;
+}
+
+.main p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+/* slidebar */
+.slidebar {
+  width: 300px;
+  float: right;
+  padding: 20px;
+}
+
+.slidebar h3 {
+  font-weight: bold;
+  color: #333;
+}
+
+.slidebar img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  padding-right: 10px;
+}
+
+.slidebar p {
+  font: 14px/18px arial;
+}
+
+.slidebar a {
+  font-weight: bold;
+  color: violet;
+}
+
+.slidebar a:hover {
+  background-color: lightsteelblue;
+  color: whitesmoke;
+}
+
+.footer {
+  background-color: #333;
+  padding: 18px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 14px;
+}
+
+.penulisArtikel a:hover {
+  background-color: lightsteelblue;
+  color: whitesmoke;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
