@@ -133,7 +133,7 @@ table {
 .body {
   font: 16px/28px arial, sans-serif;
   background-color: #eaeaea;
-  color: #333;
+  color: #333333;
 }
 
 .container {
@@ -203,6 +203,22 @@ table {
 .main p {
   margin-bottom: 20px;
   font-size: 20px;
+}
+
+#pid {
+  background-color: rgb(250, 233, 233);
+  text-align: center;
+  text-shadow: 2px 2px 2px grey;
+}
+
+#h2id {
+  color: rgb(250, 233, 233);
+  text-shadow: 2px 2px 2px black;
+}
+
+#h2id:hover {
+  background-color: rgb(250, 233, 233);
+  color: black;
 }
 
 /* slidebar */
