@@ -211,18 +211,6 @@ table {
   text-shadow: 2px 2px 2px grey;
 }
 
-#h2id {
-  color: rgb(250, 233, 233);
-  text-shadow: 2px 2px 2px black;
-  text-align: center;
-}
-
-#h2id:hover {
-  background-color: rgb(250, 233, 233);
-  color: black;
-  text-align: center;
-}
-
 /* slidebar */
 .slidebar {
   width: 300px;
